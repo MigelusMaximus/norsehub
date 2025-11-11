@@ -324,21 +324,21 @@ const NorthgardWiki = () => {
                     {/* Strategy Sections */}
                     <div className="grid grid-cols-3 gap-4">
                       <WikiSection
-                        title="Early Game (Year 1-2)"
+                        title="Early Game (Year 800-801)"
                         content={wikiContent[selectedClan.id]?.earlyGame}
                         editMode={editMode}
                         onEdit={(val) => updateWikiSection(selectedClan.id, 'earlyGame', val)}
                         compact
                       />
                       <WikiSection
-                        title="Mid Game (Year 3-4)"
+                        title="Mid Game (Year 802-803)"
                         content={wikiContent[selectedClan.id]?.midGame}
                         editMode={editMode}
                         onEdit={(val) => updateWikiSection(selectedClan.id, 'midGame', val)}
                         compact
                       />
                       <WikiSection
-                        title="Late Game (Year 5+)"
+                        title="Late Game (Year 803)"
                         content={wikiContent[selectedClan.id]?.lateGame}
                         editMode={editMode}
                         onEdit={(val) => updateWikiSection(selectedClan.id, 'lateGame', val)}
